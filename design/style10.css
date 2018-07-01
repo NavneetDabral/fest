@@ -1,0 +1,396 @@
+@media(max-width:480px) {
+.ca-menu{
+    width:100%;
+    margin-top:10%;
+    height:100%;
+    text-align: center;
+}
+    .card-content{
+    font-weight:400;
+    font-size:30px; 
+    text-align:center;
+    line-height:40px; 
+} 
+    .back4{
+    background-color:blueviolet;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    height
+    padding-top:20%; 
+    padding-bottom:20%;
+    margin-bottom:0px;
+    padding-left:10%;
+    padding-right:10%; 
+    overflow: hidden;
+}
+
+.ca-menu li{
+    min-width: 280px;
+    height: 150px;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    background:#fff;
+    text-align: center;
+    opacity:1; 
+    padding-bottom:5px; 
+    margin-bottom:5px; 
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.ca-menu li:last-child{
+    margin-right: 0px;
+}
+.ca-menu li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+}
+.ca-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 35px;
+    color:black;
+    line-height:5px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0px;
+    top: 20px;
+    text-align: center;
+}
+.ca-main{
+    font-family: origami;
+    font-size:30px;
+    position: absolute;
+    top:30px;
+    width: 100%;
+    height:20px;
+    left:0;
+    padding-top:30px; 
+    padding-left:7%;
+    padding-bottom:10px; 
+    opacity:1;
+    text-align: center;
+    color: #555;
+}
+.ca-sub{
+    display: none;
+}
+    
+    .ca-menu1{
+    width:100%;
+    margin-top:10%;
+    height:100%;
+    text-align: center;
+}
+    .card-content1{
+    font-weight:400;
+    font-size:30px; 
+    text-align:center;
+    line-height:40px; 
+} 
+    .back41{
+    background-color:#E0E0E0;
+    background-image:url(../images/without/1.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    height
+    padding-top:20%; 
+    padding-bottom:20%;
+    margin-bottom:0px;
+    padding-left:7%;
+    padding-right:10%; 
+    overflow: hidden;
+}
+
+.ca-menu1 li{
+    min-width: 280px;
+    height: 150px;
+    border: 5px solid #212121;
+    overflow: hidden;
+    position: relative;
+    float:left;
+    background:#fff;
+    text-align: center;
+    opacity:1; 
+    padding-bottom:5px; 
+    margin-bottom:5px; 
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.ca-menu1 li:last-child{
+    margin-right: 0px;
+}
+.ca-menu1 li a{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+}
+.ca-main1{
+    font-family: origami;
+    font-size:30px;
+    position: absolute;
+    width: 100%;
+    height:20px;
+    left:0; 
+    padding-left:5%;
+    padding-bottom:10px; 
+    opacity:1;
+    text-align: center;
+    color: #555;
+}
+.ca-sub1{
+    display: none;
+}
+    
+    
+}
+    
+
+
+@media(min-width:481px){
+.ca-menu{
+    text-align: center;
+}
+    .card-content{
+    font-stretch:expanded;
+    font-weight:500;
+    font-size:15px; 
+    text-align: center;
+    line-height:2px; 
+}
+    .back4{
+    background-color:blueviolet;
+    background-image:url(../images/workshop1.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    min-height:950px;
+    max-height:2000px; 
+    padding-top:8%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:27%;
+    margin-bottom:0px; 
+    overflow: hidden;
+}
+
+.ca-menu li{
+    min-width:280px;
+    max-height:400px; 
+    min-height:300px;
+    max-height:500px; 
+    border:8px solid dimgrey;
+    overflow: hidden;
+    position: relative;
+    float:inherit;
+    background: #fff;
+    opacity:1; 
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    /*-webkit-border-radius: 600px;
+    -moz-border-radius: 600px;
+    border-radius: 600px;*/
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+p{
+    font-size:10px; 
+}
+.ca-menu li a{
+    text-align:left;
+    width: 100%;
+    height: 100%;
+    display:block;
+    color: #333;
+    position: relative;
+}
+.ca-icon{
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size:60px;
+    color:dimgrey;
+    line-height:70px;
+    position: absolute;
+    width: 100%;
+    height:150px;
+    left: 0px;
+    top: 30px;
+    text-align: center;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.ca-main{
+    font-family: origami2;
+    font-size:40px;
+    position:absolute;
+    top:150px;
+    height: 80px;
+    width:80px;
+    left:46%;
+    color:dimgray;
+    margin-left:-85px;
+    opacity:1;
+    text-align:center;
+    color: #555;
+}
+.ca-sub{
+    display: none;
+}
+.ca-menu li:hover{
+    border-color: #333;
+    z-index: 999;
+    opacity:1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ca-menu li:hover .ca-icon{
+    color: #000;
+    font-size:70px;
+    opacity:1; 
+    text-shadow: 0px 0px 1px #000;
+    -webkit-animation: moveFromBottom 300ms ease;
+    -moz-animation: moveFromBottom 300ms ease;
+    -ms-animation: moveFromBottom 300ms ease;
+}
+.ca-menu li:hover .ca-main{
+    color: #000;
+    opacity:1;
+    -webkit-animation: moveFromBottom 500ms ease; 
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -moz-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -ms-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+    /*workshops*/
+    
+    .ca-menu1{
+    text-align: center;
+}
+    .card-content1{
+    font-stretch:expanded;
+    font-weight:500;
+    font-size:15px; 
+    text-align: center;
+    line-height:2px; 
+}
+    .back41{
+    background-color:#E0E0E0;
+   background-image: url(../images/without/1.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    min-height:950px;
+    max-height:2000px; 
+    padding-top:12%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:25%;
+    margin-bottom:0px; 
+    overflow: hidden;
+}
+
+.ca-menu1 li{
+    min-width:280px;
+    max-height:400px; 
+    min-height:300px;
+    max-height:500px; 
+    border:8px solid #212121;
+    overflow: hidden;
+    position: relative;
+    float:inherit;
+    background: #fff;
+    opacity:1;
+    cursor: pointer;
+    border-collapse: collapse;
+}
+p{
+    font-size:10px; 
+}
+.ca-menu1 li a{
+    text-align:left;
+    width: 100%;
+    height: 100%;
+    display:block;
+    color: #333;
+    position: relative;
+}
+.ca-main1{
+    font-family: origami2;
+    font-size:40px;
+    position:absolute;
+    color: black;
+    height:80px;
+    padding-top:15%;
+    width:90px;
+    left:46%;
+    margin-left:-70px;
+    opacity:1;
+    text-align:center;
+    color: #555;
+}
+    .ca-main1 h1{
+        color:black;
+    }
+.ca-sub1{
+    display: none;
+}
+}
+

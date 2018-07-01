@@ -1,0 +1,982 @@
+body{
+    background-color:#E0E0E0;
+    background-position:cover;
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+h3{
+    color:#1565C0;
+    font-size:22px; 
+}
+.fa-chevron-circle-left{
+    cursor: pointer;
+    padding-left:5px;
+    padding-top:10px;
+    padding-bottom:2px;
+    padding-left:1%; 
+    color:black;
+    position:fixed;
+    opacity:0.7; 
+}
+.colo{
+    color:azure;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #283593;
+  outline: 1px solid #283593;
+}
+.nback{
+    background-color:#212121; 
+    height:100%;
+}
+@font-face{
+    font-family:"origami";
+    src:url(../fonts/Origram.otf);
+}
+@font-face{
+    font-family:"origami2";
+    src:url(../fonts/origami2.ttf);
+}
+
+
+.backcu1{ 
+    background-image:url(../images/tech3.svg);
+    background-color: darkslateblue;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+    padding-top:70px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px; 
+    border-width: medium;
+    border-color: aqua;
+    border-width:10px;
+    border-style: inset;
+    
+}
+
+.dis{
+    padding-bottom:300px; 
+}
+
+
+
+.headtech{
+    text-align: center;
+}
+h5{
+    text-shadow:2px 1px black;
+    text-align: center;
+    color:darkgrey;
+}
+
+
+.bor{
+    border-left-color: aqua;
+    background-color:#00695c; 
+    border-top-color: blueviolet;
+    border-right-color: yellow;
+    border-bottom-color: deeppink;
+    border-style: groove;
+    border-radius:20px;
+    margin-left:0px;
+    margin-right:0px; 
+     background-position:center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    
+}
+
+.blin{
+    background-image: url("../images/blind1.svg");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+}
+
+hr{
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px antiquewhite inset;
+}
+
+
+
+
+
+
+@media (max-width:480px){
+    
+    .navbar{
+    background-color:#E0E0E0;
+    padding-bottom:10px; 
+    padding-top:10px; 
+    border-collapse:collapse;
+    border:0;
+    height:60px;
+    box-shadow: 0 2px 2px 0 #212121, 0 2px 2px 0 #212121;
+}
+   .backcu{
+    background-color:#E0E0E0; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    padding-top:90px;
+    width:100%; 
+    min-height:1000px;
+       background-image: url(../images/without/663e3be2f396d7589b310db4ce32aaf1.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+}
+    .backcu2{
+    background-color:#E0E0E0; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    padding-top:90px;
+    width:100%; 
+    min-height:1000px;
+       background-image: url(../images/without/35.png);
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+}
+   
+    .cult1{
+    background-image: url("../images/cult/flamy%20duo.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px; 
+    min-width:300px;
+    cursor: pointer;
+}
+.cult2{
+    background-image: url("../images/cult/echo.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult3{
+    background-image: url("../images/cult/goonj.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+     min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult5{
+    background-image: url("../images/cult/invictus.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+ min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult6{
+    background-image: url("../images/cult/swar.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult7{
+    background-image: url("../images/cult/onyx%20stpes.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult8{
+    background-image: url("../images/cult/prahaar.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px; 
+    cursor: pointer;
+}
+.cult9{
+    background-image: url("../images/cult/rang%20sang.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult10{
+    background-image: url("../images/cult/sketcho%20mainia.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;    min-width:300px;
+    cursor: pointer;
+}
+.cult11{
+    background-image: url("../images/cult/vogue.svg");
+    background-position: center;
+    margin-top:10px; 
+    background-repeat: no-repeat;
+    background-size:contain;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.cult12{
+    background-image: url("../images/cult/poetry.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;    min-width:300px;
+    cursor: pointer;
+}
+
+.tech1{
+    background-image: url("../images/tech/maze-runner.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px; 
+    min-width:300px;
+    cursor: pointer;
+}
+
+.tech2{
+    background-image: url("../images/tech/flotter.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;   
+    min-width:300px;
+    cursor: pointer;
+}
+.tech3{
+    background-image: url("../images/tech/robowar.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.tech4{
+    background-image: url("../images/tech/robokick.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.tech5{
+    background-image: url("../images/tech/tower.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+}
+.tech6{
+     background-image: url("../images/tech/robocoursa.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+    
+}
+.tech7{
+     background-image: url("../images/tech/code.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+    
+}
+
+.tech8{
+     background-image: url("../images/tech/debug.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+    
+}
+
+.tech9{
+     background-image: url("../images/tech/decip.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+    
+}
+    .tech11{
+    background-image: url("../images/tech/ckt.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+    
+}
+    .tech10{
+    background-image: url("../images/tech/HYd.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+    
+}
+    .workshop1{
+         background-image: url("../images/workshops/cyber-security-2851245_640.jpg");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+        
+    }
+    .workshop2{
+         background-image: url("../images/workshops/network-782707_640.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+        
+    }
+    .workshop3{
+         background-image: url("../images/workshops/Untitled-3.png");
+    background-position: center;
+    margin-top:30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height:400px;
+    min-width:300px;
+    cursor: pointer;
+        
+    }
+
+
+    
+    .info1{
+    padding-top:10px; 
+    font-family:"origami2";
+    text-align: center;
+    font-size:30px;
+    line-height:10px; 
+    color:black;      
+  
+}
+
+    
+    .teve{
+    min-height:420px;
+     min-width:325px;
+     border-radius:30px; 
+     margin-bottom:5px;
+     border-style:outset;
+     border-width: thick;
+        background-color: azure;
+        opacity:0.8;
+ }
+    .info2{
+    padding-top:10px; 
+    font-family:"origami2";
+    text-align: center;
+    font-size:30px;
+    line-height:25px; 
+    padding-top:7px;
+    padding-bottom:7px; 
+    color:#424242;
+    }
+    
+.fashion{
+    height:250px;
+    z-index: 1; 
+    opacity:1;
+    padding-left:0px;
+    margin-left:0px;
+    margin-bottom:0px; 
+    margin-right:0px; 
+    padding-top:5px;
+    padding-left:1px;
+    padding-right:1px;
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position:center;
+    background-color:#E0E0E0;
+    
+}
+
+.echo2{
+    height:600px;
+    font-family: 'Courgette', cursive;
+    color:whitesmoke;
+    font-size:15px;
+    z-index: 1; 
+    opacity:1;
+    margin-right:0px;
+    margin-bottom:0px;
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position:center;
+    background-color:#E0E0E0;
+    color:black;
+    overflow-y:scroll;
+    
+}
+    .echo2::-webkit-scrollbar {
+    width: 0.3em;
+}
+ 
+.echo2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.echo2::-webkit-scrollbar-thumb {
+  background-color: #424242;
+  outline: 1px solid #4E342E;
+}
+
+    
+    
+    
+   
+}
+
+
+@media (min-width:481px) {
+    
+   .navbar{
+    background-color:#E0E0E0; 
+    padding-bottom:10px; 
+    border-collapse:collapse;
+    border:0;
+    height:100px;
+    letter-spacing:0.2em; 
+    font-weight:500;
+    padding-top:20px; 
+    box-shadow: 0 2px 3px 0 #212121, 0 5px 10px 0 #212121;
+}
+    .backcu{
+    background-color:#E0E0E0; 
+    padding-top:150px;
+    padding-left:5%;
+    padding-right:5%;
+    width:100%;  
+    min-height:1000px; 
+        background-position:center;
+    background-repeat:no-repeat;
+    background-image: url(../images/without/663e3be2f396d7589b310db4ce32aaf1.jpg);
+    background-size: cover;
+    }
+    .backcu2{
+    background-color:#E0E0E0; 
+    padding-top:150px;
+    padding-left:5%;
+    padding-right:5%;
+    width:100%;  
+    min-height:1000px; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image: url(../images/without/35.png);
+    background-size: cover;
+    }
+    .teve{
+     background-position:center;
+     background-repeat:no-repeat;
+     background-attachment:inherit;
+     background-size:cover;
+     min-height:400px;
+     max-height:600px; 
+     min-width:272px;
+     margin-bottom:20px;
+     border-color:#424242;
+     border-width: thick;
+     border-style: outset;
+     border-radius:20px; 
+     border-width:4px;
+     background-color: azure;
+     opacity:0.9; 
+     
+   
+}
+   
+    .teve:hover{
+            opacity:1;
+            z-index:900;
+        box-shadow: 0 10px 8px 0 #424242, 0 6px 20px 0 #424242;
+    }
+    .ribbon {
+ font-size: 30px !important;
+ width: 55%;
+ position: relative;
+ background:#424242;
+ color:#E0E0E0;
+ text-align: center;
+ padding: 0.5em 0.5em; /* Adjust to suit */
+ margin: 0.5em auto 0.5em;
+        letter-spacing:0.2em;/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1em solid #616161 ;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -1em;
+ border-right-width: 1em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -1em;
+ border-left-width: 1em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color:#212121 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+       
+.cult1{
+    background-image: url("../images/cult/flamy%20duo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height:330px;
+    max-height:570px;
+    min-width:250px;
+    cursor: pointer;
+}
+.cult2{
+    background-image: url("../images/cult/echo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+     min-height:330px;
+    max-height:500px;
+    min-width:250px;
+    cursor: pointer;
+}
+.cult3{
+    background-image: url("../images/cult/goonj.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+   min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.cult5{
+    background-image: url("../images/cult/invictus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.cult6{
+    background-image: url("../images/cult/swar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.cult7{
+    background-image: url("../images/cult/onyx%20stpes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.cult8{
+    background-image: url("../images/cult/prahaar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+ min-height:330px;
+    max-height:500px;
+min-width:250px; 
+    cursor: pointer;
+}
+.cult9{
+    background-image: url("../images/cult/rang%20sang.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+ min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.cult10{
+    background-image: url("../images/cult/sketcho%20mainia.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+min-height:330px;
+    max-height:500px;
+min-width:250px;   
+    cursor: pointer;
+}
+.cult11{
+    background-image: url("../images/cult/vogue.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:contain;
+   min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.cult12{
+    background-image: url("../images/cult/poetry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+min-height:330px;
+    max-height:500px;
+min-width:250px;    cursor: pointer;
+}
+
+.tech1{
+    background-image: url("../images/tech/maze-runner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+min-height:330px;
+    max-height:500px;
+    max-height:500px;
+min-width:250px;    cursor: pointer;
+}
+
+.tech2{
+    background-image: url("../images/tech/flotter.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+ min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.tech3{
+    background-image: url("../images/tech/robowar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.tech4{
+    background-image: url("../images/tech/robokick.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.tech5{
+    background-image: url("../images/tech/tower.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+}
+.tech6{
+     background-image: url("../images/tech/robocoursa.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+   min-height:330px;
+min-width:250px;    cursor: pointer;
+    
+}
+.tech7{
+     background-image: url("../images/tech/code.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  min-height:330px;
+    max-height:500px;
+min-width:250px;    cursor: pointer;
+    
+}
+
+.tech8{
+     background-image: url("../images/tech/debug.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+ min-height:330px;
+    max-height:500px;
+min-width:250px;    cursor: pointer;
+    
+}
+
+.tech9{
+     background-image: url("../images/tech/decip.png");
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height:330px;
+    max-height:500px;
+min-width:250px;
+    cursor: pointer;
+    
+}   
+        .tech11{
+    background-image: url("../images/tech/ckt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:330px;
+    min-width:250px;
+            max-height:500px;
+    cursor: pointer;
+    
+}
+    .tech10{
+    background-image: url("../images/tech/HYd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:330px;
+    min-width:250px;
+    max-height:500px;
+    cursor: pointer;
+    
+}
+   
+    
+    .paddin{
+    margin-left:0px;
+    padding-left:0px;
+    margin-top:20px; 
+    margin-right:0px;
+    min-height:780px;
+    height:100%;
+    width:100%;
+    margin-bottom:0px;
+    margin-top:0px; 
+    overflow:hidden;
+}
+
+   
+    
+.info1{
+    padding-top:20px; 
+    font-family:"origami2";
+    text-align: center;
+    font-size:60px;
+    line-height:30px; 
+    color:#000000;      
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 1px 0 #2a2a2a, 0 1px 0 #282828, 0 2px 0 #262626, 0 1px 0 #242424, 0 7px 0 #222, 0 2px 0 #202020, 0 3px 0 #1e1e1e, 0 3px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 3px 0 #181818, 0 3px 0 #161616, 0 3px 0 #141414, 0 4px 0 #121212, 0 2px 2px rgba(0, 0, 0, 0.9);
+}
+ .info2{
+    padding-top:10px;
+     padding-bottom:10px; 
+    font-family:"origami2";
+    text-align: center;
+    font-size:30px;
+    line-height:60px; 
+    color:crimson;  
+}
+    .echo1{
+    height:780px;
+    z-index: 1; 
+    opacity:1;
+    padding-left:0px;
+    margin-left:0px;
+    margin-bottom:0px; 
+    margin-right:0px; 
+    background-image: url('../images/cult/echo.png');
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position:center;
+    background-color:#424242;
+    
+}
+.fashion{
+    height:100%;
+    height:780px;
+    z-index: 1; 
+    opacity:1;
+    padding-left:0px;
+    padding-right:10px; 
+    margin-left:0px;
+    margin-bottom:0px; 
+    margin-right:0px;
+    padding-bottom:20px;
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size:contain;
+    background-position:center;
+    background-color:#E0E0E0;
+    
+}
+
+.echo2{
+    height:100%;
+    height:780px;
+    z-index: 1; 
+    opacity:1;
+    padding-top:20px; 
+    padding-left:15px;
+    margin-right:0px;
+    padding-bottom:20px; 
+    margin-bottom:0px;
+    margin-right:0px; 
+    background-color:#E0E0E0;
+    font-family: 'Courgette', cursive;
+    font-size:20px;
+    text-align:justify;
+    color:black;
+    overflow-y:auto;
+    overflow-x: hidden;
+    
+}   
+   .echo2::-webkit-scrollbar {
+    width: 0.3em;
+}
+ 
+.echo2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.echo2::-webkit-scrollbar-thumb {
+  background-color: #1A237E;
+  outline: 1px solid #1A237E;
+}
+
+    .list{
+        padding-left:50px;
+         margin-top:20px;
+        margin-bottom:20px; 
+    }
+    .workshops{
+        padding-top:10%;
+        padding-left:20%;
+        padding-right:10%;
+        padding-bottom:10%; 
+        
+    }  
+    pome{
+        cursor: pointer;
+    }
+    
+}
+
